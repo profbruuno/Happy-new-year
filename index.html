@@ -1,68 +1,52 @@
-body {
-    font-family: 'Arial', sans-serif;
-    background-color: #f2f2f2;
-    color: #333;
-    text-align: center;
-    margin: 0;
-    padding: 0;
-}
-
-/* Add animation to header */
-@keyframes fadeIn {
-    from {
-        opacity: 0;
-    }
-    to {
-        opacity: 1;
-    }
-}
-
-header {
-    background-color: #ffcc00;
-    padding: 20px;
-    animation: fadeIn 2s ease-in-out;
-}
-
-h1 {
-    margin: 0;
-}
-
-footer {
-    background-color: #ffcc00;
-    padding: 10px;
-    margin-top: 20px;
-    position: relative;
-    width: 100%;
-    font-size: 0.8em; /* Make the footer text smaller */
-}
-
-footer p {
-    margin: 0;
-}
-
-html {
-    scroll-behavior: smooth;
-}
-
-.video-container {
-    position: relative;
-    padding-bottom: 56.25%; /* 16:9 aspect ratio */
-    height: 0;
-    overflow: hidden;
-    max-width: 100%;
-    background: #000;
-}
-
-.video-container iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-}
-
-#top-timer span, #middle-timer span, #bottom-timer-1 span, #bottom-timer-2 span {
-    display: inline-block;
-    animation: bounce 2s infinite;
-    font-size: 2em;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy New Year!</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Bruno Mujurizi wishes you a Happy New Year 2025!</h1>
+        <p>Welcome to our New Year celebration!</p>
+    </header>
+    <main>
+        <section id="top-timer">
+            <!-- Top Countdown Timer Will Go Here -->
+        </section>
+        <section id="event-schedule">
+            <!-- Event Schedule Will Go Here -->
+        </section>
+        <section id="middle-timer">
+            <!-- Middle Countdown Timer Will Go Here -->
+        </section>
+        <section id="photo-gallery">
+            <!-- Photo Gallery Will Go Here -->
+        </section>
+        <section id="message-board">
+            <h2>2024 is no more</h2>
+            <p>Happy New Year! Wishing you joy, health, and success. Grateful for our friendship. Cheers to new adventures together! 🎉🥂</p>
+        </section>
+        <section id="video-section">
+            <h2>Watch Our New Year Celebration Video</h2>
+            <div class="video-container">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/wTnm_BaRWs8?start=3&rel=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </section>
+        <section id="dedication-message">
+            <h2>I dedicate this Dr. Tee song to you</h2>
+        </section>
+        <section id="bottom-timer-1">
+            <!-- Bottom Countdown Timer 1 Will Go Here -->
+        </section>
+        <section id="bottom-timer-2">
+            <!-- Bottom Countdown Timer 2 Will Go Here -->
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Happy New Year</p>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+</html>
