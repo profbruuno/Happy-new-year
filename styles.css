@@ -75,7 +75,8 @@ html {
 
 #top-timer span, #bottom-timer span {
     display: inline-block;
-    animation: bounce 2s infinite;
+    animation: none;
     font-size: 2em;
     color: #4caf50; /* Green */
+    font-family: 'Courier New', Courier, monospace; /* Digital clock font */
 }
