@@ -15,16 +15,12 @@ document.addEventListener("DOMContentLoaded", function() {
             const milliseconds = Math.floor((distance % 1000) / 10);
 
             countdownTimer.innerHTML = `
-                <span>${days}d </span>
-                <span>${hours}h </span>
-                <span>${minutes}m </span>
-                <span>${seconds}s </span>
-                <span>${milliseconds}ms</span>
+                <span>${days}d ${hours}h ${minutes}m ${seconds}s ${milliseconds}ms</span>
             `;
 
             if (distance < 0) {
                 clearInterval(timer);
-                countdownTimer.innerHTML = "Congratulations upon reaching 2025!";
+                countdownTimer.innerHTML = "<span>Congratulations upon reaching 2025!</span>";
             }
         }, 10);
     }
