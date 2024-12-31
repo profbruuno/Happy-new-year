@@ -26,7 +26,7 @@ header {
 
 h1, h2 {
     margin: 0;
-    color: #ff5722; /* Deep Orange */
+    color: #0d47a1; /* Deep and Sharp Blue */
 }
 
 footer {
@@ -54,7 +54,7 @@ html {
     overflow: hidden;
     max-width: 100%;
     background: #000;
-    border: 5px solid #ff5722; /* Deep Orange border */
+    border: 5px solid #0d47a1; /* Deep and Sharp Blue border */
     border-radius: 10px;
 }
 
