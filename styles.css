@@ -51,6 +51,7 @@ footer {
 #countdown-timer span {
     display: inline-block;
     animation: bounce 2s infinite;
+    font-size: 2em;
 }
 
 html {
