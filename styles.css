@@ -67,6 +67,12 @@ html {
     border-radius: 10px;
 }
 
+#top-timer, #middle-timer, #bottom-timer-1, #bottom-timer-2 {
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #e3f2fd; /* Light Blue background for visibility */
+}
+
 #top-timer span, #middle-timer span, #bottom-timer-1 span, #bottom-timer-2 span {
     display: inline-block;
     animation: bounce 2s infinite;
