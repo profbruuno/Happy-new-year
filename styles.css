@@ -48,7 +48,7 @@ footer {
     }
 }
 
-#countdown-timer span {
+#top-timer span, #middle-timer span, #bottom-timer-1 span, #bottom-timer-2 span {
     display: inline-block;
     animation: bounce 2s infinite;
     font-size: 2em;
